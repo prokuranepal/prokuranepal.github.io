@@ -1,0 +1,23 @@
+sudo: true
+language: python
+python:
+  - "3.7"
+
+before_script:
+  - sudo pip install -U sphinx
+
+script:
+  - make html
+  - touch docs/html/.nojekyll
+  - touch docs/.nojekyll
+#   - CI=false npm run build
+
+deploy:
+  - provider: pages:git
+    verbose: true
+    github_token: $GITHUB_TOKEN
+    edge: true
+    keep_history: true
+    on:
+      branch: documentation
+
