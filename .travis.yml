@@ -4,7 +4,7 @@ python:
   - "3.7"
 
 before_script:
-  - sudo pip install -U sphinx
+  - sudo pip install -U sphinx==3.2.1
 
 script:
   - make html
