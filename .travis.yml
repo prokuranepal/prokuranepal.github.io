@@ -20,5 +20,5 @@ deploy:
     local_dir: ./docs/html/
     keep_history: true
     on:
-      all_branches: true
+      branch: documentation
 
