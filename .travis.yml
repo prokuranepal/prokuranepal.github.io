@@ -14,4 +14,11 @@ script:
   - touch docs/html/.nojekyll
 #   - CI=false npm run build
 
+deploy:
+  - provider: pages
+    verbose: true
+    github_token: $GITHUB_TOKEN
+    edge: true
+    local_dir: docs/html
+    keep_history: true
 
