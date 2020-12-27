@@ -11,7 +11,7 @@ before_script:
 
 script:
   - make html
-  - touch docs/build/html/.nojekyll
+  - touch docs/html/.nojekyll
 #   - CI=false npm run build
 
 
