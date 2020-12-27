@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Docs'
+project = 'Prokura'
 copyright = '2020, Prokura Innovations Pvt. Ltd.'
 author = 'Prokura Innovations Pvt. Ltd.'
 
