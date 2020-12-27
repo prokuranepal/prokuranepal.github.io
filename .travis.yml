@@ -1,14 +1,17 @@
-script:
+sudo: true
+env:
+  global:
 
+language: python
+python:
+  - "3.7"
+
+before_script:
+  - sudo easy_install -U Sphinx
+
+script:
   - make html
   # - touch docs/build/html/.nojekyll
 #   - CI=false npm run build
 
 
-deploy:
-  - provider: pages
-    verbose: true
-    github_token: $GITHUB_TOKEN
-    edge: true
-    local_dir: docs/html
-    keep_history: true
