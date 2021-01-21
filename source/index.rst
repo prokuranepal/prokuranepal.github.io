@@ -10,7 +10,10 @@ Welcome to Docs's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
+   introduction
+   code_of_conduct
+   contributing_guidelines
+   prokura_projects
 
 Indices and tables
 ==================
