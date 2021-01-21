@@ -4,7 +4,8 @@ python:
   - "3.7"
 
 before_script:
-  - pip install -U sphinx==3.2.1
+  - sudo pip install -U sphinx
+  - pip install recommonmark==0.7.1
 
 script:
   - make html
