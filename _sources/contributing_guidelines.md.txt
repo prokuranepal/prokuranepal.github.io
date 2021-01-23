@@ -1,5 +1,5 @@
 # Contributing Guidelines
-We welcome any contribution to the repo that aims to improve the repository. It is to be noted that contributors should follow the <a href="../../docs/html/code_of_conduct.html"> <b>Code of Conduct </b></a> of the repository while considering any contributions.
+We welcome any contribution to the repo that aims to improve the repository. It is to be noted that contributors should follow the <a href="https://prokuranepal.github.io/code_of_conduct.html"> <b>Code of Conduct </b></a> of the repository while considering any contributions.
 
 Contributors can contribute either working on the current open issues or if they wish can propose new ideas via issues or emails for discussion. We encourage following pull request workflow to create pull requests on issues. For starters, considering following this <a href="https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request">link</a> to learn more about pull requests.
 
